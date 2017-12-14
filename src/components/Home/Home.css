@@ -1,0 +1,9 @@
+.header {
+    color: green;
+    &:hover {
+        color: yellow;
+    }
+    & :global(.content) {
+        color: red;
+    }
+}

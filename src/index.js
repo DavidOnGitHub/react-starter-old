@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import { BrowserRouter } from 'react-router-dom';
+import './styles/global.css';
 import { createStore, applyMiddleware } from 'redux';
 import reducer from './reducers';
 import App from './components/App';

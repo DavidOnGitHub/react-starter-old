@@ -1,0 +1,5 @@
+:global(.content) {
+  padding: 100px;
+  color: blue;
+  font-size: 20px;
+}
